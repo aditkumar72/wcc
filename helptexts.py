@@ -12,7 +12,7 @@ HELP_TEXT_W = (
     "The number of words in each input file is written to the standard output."
 )
 HELP_TEXT_FILE = "Input file(s) if any."
-USAGE = "wcc [-clmw] [file ...]"
+USAGE = "./wcc [-clmw] [file ...]"
 DESCRIPTION = """
 NAME
   wcc – word, line, character, and byte count
