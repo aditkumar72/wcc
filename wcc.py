@@ -12,7 +12,6 @@ def main():
         usage=USAGE,
         description=DESCRIPTION,
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        add_help=False,
     )
     parser.add_argument("-c", action="store_true", help=HELP_TEXT_C)
     parser.add_argument("-l", action="store_true", help=HELP_TEXT_L)
